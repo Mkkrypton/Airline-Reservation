@@ -1,0 +1,75 @@
+#homepage {
+	background-color: #ffccdd;
+	width: 800px;
+	font-size: 16px;
+	height: 600px;
+}
+
+h4 {
+	font-weight: bold;
+}
+footer {
+	background-color: #ff6600;
+	color: #ffccdd;
+	padding: 32px;
+font-size: 18px;
+
+}
+
+footer .glyphicon {
+font-size: 20px;
+margin-bottom: 20px;
+color: #ffccdd;
+opacity: 0.9;
+}
+
+/* Seat map styles */
+.seat-map {
+  display: grid;
+  grid-template-columns: repeat(6, 40px);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #90ee90;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+  user-select: none;
+}
+.seat.booked {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+.seat.selected {
+  background-color: #ffa500;
+}
+.legend {
+  margin-top: 10px;
+}
+.legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+.legend .available {
+  background-color: #90ee90;
+}
+.legend .booked {
+  background-color: #d3d3d3;
+}
+.legend .selected {
+  background-color: #ffa500;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}

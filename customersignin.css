@@ -1,0 +1,26 @@
+body {
+	padding-top: 70px; 
+}
+
+.navbar-default {
+	background-color: #ff6600 !important; 
+	border-color: #cc5200 !important; 
+	opacity: 1 !important; 
+	filter: none !important;
+}
+
+#signin {
+background-color: #ff6600;
+width: 800px;
+color: #fff;
+
+margin-top: 80px; 
+}
+#signin a {
+color: #ffccdd; 
+}
+#main {
+width: 700px;
+padding-left: 50px;
+padding-right: 50px;
+}
